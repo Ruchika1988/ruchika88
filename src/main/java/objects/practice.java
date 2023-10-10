@@ -47,16 +47,16 @@ public class practice
 	{
 		driver.get("https://practice.expandtesting.com/inputs");
 
-		InputNumber.sendKeys("5");
-		InputText.sendKeys("one");
-		InputPassword.sendKeys("one@");
+		InputNumber.sendKeys("6");
+		InputText.sendKeys("six");
+		InputPassword.sendKeys("six@");
 		InputDate.sendKeys("12/02/1981");
 		DisplayButton.click();
 		Thread.sleep(4000);
 
-		String expNumber = "5";
-		String expText = "one";
-		String expPassword = "one@";
+		String expNumber = "6";
+		String expText = "six";
+		String expPassword = "six@";
 		String expDate = "1981-12-02";
 
 		ArrayList<String> expected = new ArrayList<String>();
