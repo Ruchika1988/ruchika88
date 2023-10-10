@@ -47,14 +47,14 @@ public class practice
 	{
 		driver.get("https://practice.expandtesting.com/inputs");
 
-		InputNumber.sendKeys("4");
+		InputNumber.sendKeys("5");
 		InputText.sendKeys("one");
 		InputPassword.sendKeys("one@");
 		InputDate.sendKeys("12/02/1981");
 		DisplayButton.click();
 		Thread.sleep(4000);
 
-		String expNumber = "4";
+		String expNumber = "5";
 		String expText = "one";
 		String expPassword = "one@";
 		String expDate = "1981-12-02";
